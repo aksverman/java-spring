@@ -1,4 +1,4 @@
-package com.zetainteractive.security.dao;
+package com.rudra.aks.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -25,9 +25,9 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.zetainteractive.security.bo.UserBO;
-import com.zetainteractive.security.controller.SecurityController;
-import com.zetainteractive.security.rowmapper.UserRowMapper;
+import com.rudra.aks.bo.UserBO;
+import com.rudra.aks.controller.SecurityController;
+import com.rudra.aks.rowmapper.UserRowMapper;
 
 @Repository
 //@Scope(proxyMode=ScopedProxyMode.TARGET_CLASS) 

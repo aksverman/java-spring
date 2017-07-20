@@ -1,4 +1,4 @@
-package com.zetainteractive.security.test;
+package com.rudra.aks.test;
 
 public class Person {
 	private String firstName;

@@ -1,4 +1,4 @@
-package com.zetainteractive.security.bo;
+package com.rudra.aks.bo;
 
 public class UserBO_j {
 	private	long userId;
